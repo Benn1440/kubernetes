@@ -1,5 +1,7 @@
 ﻿# kubernetes
 
+A Kubernetes pod deploys single instances of our application, and each container is encapsulated in pods and these pods are deployed using replica controllers or replicasets
+
 A replica set in Kubernetes ensures that pods are available at all times
 
 # Create the replica set with the command
