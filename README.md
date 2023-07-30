@@ -4,9 +4,11 @@ A Kubernetes pod deploys single instances of our application, and each container
 
 A replica set in Kubernetes ensures that pods are available at all times
 
-# Create the replica set with the command
+# Create the replica set/service-deployment with the command
 
 $ kubectl create -f replicaset.yaml
+
+$ kubectl create -f service-deployment.yaml
 
 # Check the set status, which should be 3 as specified in the file
 
