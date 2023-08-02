@@ -26,3 +26,19 @@ $ kubectl delete pod
 
 $ kubectl describe replicaset <name of replicaset>
 
+# Create an NGINX Pod
+
+$ kubectl run nginx --image=nginx
+
+# Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
+
+$ kubectl run nginx --image=nginx --dry-run=client -o yaml
+
+# Generate Deployment YAML file (-o yaml). Don’t create it(–dry-run) and save it to a file
+
+$ kubectl create deployment --image=nginx nginx --dry-run=client -o yaml > nginx-deployment.yaml
+
+# In k8s version 1.19+, we can specify the –replicas option to create a deployment with 6 replicas
+
+$ kubectl create deployment --image=nginx nginx --replicas=6 --dry-run=client -o yaml > nginx-deployment.yaml
+
