@@ -4,6 +4,8 @@ A Kubernetes pod deploys single instances of our application, and each container
 
 A replica set in Kubernetes ensures that pods are available at all times
 
+https://kubernetes.io/docs/concepts/services-networking/service/
+
 # Services in Kubernetes 
 
 In Kubernetes, a Service exposes a network application running as one or more Pods in your cluster.
