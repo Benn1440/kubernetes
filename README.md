@@ -1,8 +1,14 @@
 ﻿# kubernetes
 
-A Kubernetes pod deploys single instances of our application, and each container is encapsulated in pods and these pods are deployed using replica controllers or replicasets
+A Kubernetes pod deploys single instances of our application, and each container is encapsulated in pods and these pods are deployed using replica controllers or replica sets
 
 A replica set in Kubernetes ensures that pods are available at all times
+
+# Services in Kubernetes 
+
+In Kubernetes, a Service exposes a network application running as one or more Pods in your cluster.
+
+Services could be NodePort, Cluster IP or Load balancing
 
 # Create the replica set/service-deployment with the command
 
