@@ -5,10 +5,22 @@ metadata:
 spec:
     type: NodePort
     ports:
-    - name:  Ben Port
+    - name:  app-Port
       port:  80
       nodePort: 30005
       protocol: TCP
     selector:
        app: myapp
        type: frontend
+
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: my-service
+# spec:
+#   selector:
+#     app: my-app
+#   ports:
+#   - protocol: TCP
+#     port: 80
+#     targetPort: 80

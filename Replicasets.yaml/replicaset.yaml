@@ -3,19 +3,19 @@ kind: ReplicaSets
 metadata:
   name: myapp-replica
   labels:
-    app: my-app 
+    app: nginx-dev-pod 
 spec:
   selector:
     matchlabels:
-       app: my-app
+       app: nginx-dev-pod
   replicas: 3
   template:
     metadata:
-  name: nginx-1
+  name: nginx-dev-pod
   labels:
-    app: my-app
+    app: nginx-dev-pod
     spec:
   containers:
-    name:  nginx
-    image:  nginx
+    name:  nginx-container
+    image:  nginx:latest
 
