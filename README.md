@@ -1,4 +1,15 @@
 ﻿# kubernetes
+Performing these activities on Dev with Minikube
+
+## minikube start --driver=docker 
+
+This spins up a local development environment <br>
+
+<img width="692" alt="Screenshot 2024-07-27 at 13 26 49" src="https://github.com/user-attachments/assets/0155f326-890f-4295-aa0c-8b2b2c6aef9e"><br>
+
+Running Minikube container on Docker Desktop
+
+<img width="1437" alt="Screenshot 2024-07-27 at 13 32 28" src="https://github.com/user-attachments/assets/b31930fa-2bd7-421f-865e-28f1d5c2ff35"><br>
 
 A Kubernetes pod deploys single instances of our application, and each container is encapsulated in pods and these pods are deployed using replica controllers or replica sets
 
